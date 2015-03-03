@@ -14,6 +14,7 @@
 		4E7295FA1AA553F3008CB6B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7295F91AA553F3008CB6B6 /* Images.xcassets */; };
 		4E7295FD1AA553F3008CB6B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E7295FB1AA553F3008CB6B6 /* LaunchScreen.xib */; };
 		4E7296091AA553F4008CB6B6 /* NPPHomework4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7296081AA553F4008CB6B6 /* NPPHomework4Tests.m */; };
+		4E7296141AA55D1A008CB6B6 /* NPPDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7296131AA55D1A008CB6B6 /* NPPDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4E7296021AA553F4008CB6B6 /* NPPHomework4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPPHomework4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7296071AA553F4008CB6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E7296081AA553F4008CB6B6 /* NPPHomework4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPPHomework4Tests.m; sourceTree = "<group>"; };
+		4E7296121AA55D1A008CB6B6 /* NPPDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPPDataModel.h; sourceTree = "<group>"; };
+		4E7296131AA55D1A008CB6B6 /* NPPDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPPDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				4E7295F31AA553F3008CB6B6 /* ViewController.h */,
 				4E7295F41AA553F3008CB6B6 /* ViewController.m */,
 				4E7295F61AA553F3008CB6B6 /* Main.storyboard */,
+				4E7296121AA55D1A008CB6B6 /* NPPDataModel.h */,
+				4E7296131AA55D1A008CB6B6 /* NPPDataModel.m */,
 				4E7295F91AA553F3008CB6B6 /* Images.xcassets */,
 				4E7295FB1AA553F3008CB6B6 /* LaunchScreen.xib */,
 				4E7295EC1AA553F3008CB6B6 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				4E7295F51AA553F3008CB6B6 /* ViewController.m in Sources */,
 				4E7295F21AA553F3008CB6B6 /* AppDelegate.m in Sources */,
+				4E7296141AA55D1A008CB6B6 /* NPPDataModel.m in Sources */,
 				4E7295EF1AA553F3008CB6B6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
