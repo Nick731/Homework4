@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
-{
-    NSMutableArray *websites;
-}
+
+@property (nonatomic, strong) NSMutableArray *websites;
+@property (nonatomic, strong) IBOutlet UITableView *tableView;
 
 @end
 

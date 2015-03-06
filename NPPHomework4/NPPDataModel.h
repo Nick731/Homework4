@@ -8,10 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NPPDataModel : NSObject {
-    NSString *url;
-    NSString *name;
-}
+@interface NPPDataModel : NSObject
 
 @property (nonatomic, strong) NSString *url;
 @property (nonatomic, strong) NSString *name;

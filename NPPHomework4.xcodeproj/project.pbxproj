@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E13C0551AA93C4700075943 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E13C0541AA93C4700075943 /* WebViewController.m */; };
 		4E7295EF1AA553F3008CB6B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7295EE1AA553F3008CB6B6 /* main.m */; };
 		4E7295F21AA553F3008CB6B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7295F11AA553F3008CB6B6 /* AppDelegate.m */; };
 		4E7295F51AA553F3008CB6B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E7295F41AA553F3008CB6B6 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E13C0531AA93C4700075943 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		4E13C0541AA93C4700075943 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		4E7295E91AA553F3008CB6B6 /* NPPHomework4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPPHomework4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E7295ED1AA553F3008CB6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E7295EE1AA553F3008CB6B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 				4E7295F91AA553F3008CB6B6 /* Images.xcassets */,
 				4E7295FB1AA553F3008CB6B6 /* LaunchScreen.xib */,
 				4E7295EC1AA553F3008CB6B6 /* Supporting Files */,
+				4E13C0531AA93C4700075943 /* WebViewController.h */,
+				4E13C0541AA93C4700075943 /* WebViewController.m */,
 			);
 			path = NPPHomework4;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E7295F51AA553F3008CB6B6 /* ViewController.m in Sources */,
+				4E13C0551AA93C4700075943 /* WebViewController.m in Sources */,
 				4E7295F21AA553F3008CB6B6 /* AppDelegate.m in Sources */,
 				4E7296141AA55D1A008CB6B6 /* NPPDataModel.m in Sources */,
 				4E7295EF1AA553F3008CB6B6 /* main.m in Sources */,
@@ -418,6 +424,7 @@
 				4E72960E1AA553F4008CB6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E72960F1AA553F4008CB6B6 /* Build configuration list for PBXNativeTarget "NPPHomework4Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				4E7296111AA553F4008CB6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

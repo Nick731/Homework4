@@ -7,7 +7,6 @@
         <!--Websites-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
@@ -26,10 +25,13 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" tableViewCell="ZGp-8H-GdD" id="0Cg-6B-hdK">
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Ici-sp-qgi" kind="show" identifier="showWebView" id="Rkf-xC-rXA"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="m17-mX-PVL"/>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="Sdf-Jl-pCE"/>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="NRi-AV-AQk"/>
                                 </connections>
                             </tableView>
@@ -39,11 +41,40 @@
                     <navigationItem key="navigationItem" title="Websites" id="o5L-PP-deB"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="view" destination="QrI-NE-Hn9" id="yQJ-ga-18P"/>
+                        <outlet property="tableView" destination="QrI-NE-Hn9" id="Ze1-66-A8v"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1339.5" y="-50.5"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="ndM-W5-V2V">
+            <objects>
+                <viewController id="Ici-sp-qgi" customClass="WebViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EIo-xY-Hgu"/>
+                        <viewControllerLayoutGuide type="bottom" id="V2n-pg-CFh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vgh-Dh-Zgo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vlH-9W-Ia9">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="webView" destination="vlH-9W-Ia9" id="pyj-Jh-8l3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OTQ-iq-PEJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1795.5" y="-50.5"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="JVf-QI-J5d">
